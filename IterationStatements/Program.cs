@@ -46,7 +46,7 @@ namespace IterationStatements
 
             //}
             
-            while (numbers.Count > 200) ;
+            while (numbers.Count > 200) 
             {
                 myNumber++;
                 numbers.Add(myNumber);
@@ -58,7 +58,7 @@ namespace IterationStatements
 
             // Create a foreach loop using the collection - numbers
             //In the scope of the foreach loop, print each number in numbers
-            
+
             foreach (var item in numbers) 
             {
 
