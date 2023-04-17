@@ -46,7 +46,7 @@ namespace IterationStatements
 
             //}
             
-            while (numbers.Count > 200) 
+            while (numbers.Count < 200) 
             {
                 myNumber++;
                 numbers.Add(myNumber);
@@ -77,9 +77,9 @@ namespace IterationStatements
             // Decrement i by 1
 
             //start for loop here
-            for (var i = 199; i <= numbers.Count && i <= 0; i--)
+            for (var i = 199; i <= numbers.Count && i >= 0; i--)
             {
-                Console.WriteLine($"numbers{i}");
+                Console.WriteLine(numbers[i]);
             }
             //{
             //    // place numbers[i] inside of the Console.WriteLine() method
